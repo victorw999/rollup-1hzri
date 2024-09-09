@@ -1,0 +1,19 @@
+{
+  "name": "rollup-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "build:dev": "rollup -c rollup.config.mjs --sourcemap",
+    "dev": "rollup -c rollup.config.mjs -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.21.2"
+  },
+  "type": "module"
+}
